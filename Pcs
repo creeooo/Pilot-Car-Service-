@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilot Car Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .skills {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+        }
+        .skill {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .skill img {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .contact a {
+            text-decoration: none;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pilot Car Services</h1>
+</header>
+
+<div class="container">
+    <section class="skills">
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Utah.svg/1920px-Flag_of_Utah.svg.png" alt="Utah Flag">
+            <h2>Pilot Car Certification - Utah</h2>
+            <p>Certified and authorized for Pilot Car operations in Utah.</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/1920px-Flag_of_New_York.svg.png" alt="New York Flag">
+            <h2>Pilot Car Certification - New York</h2>
+            <p>Licensed and certified for Pilot Car services in New York.</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Insured_Shield.png" alt="Insurance Shield">
+            <h2>Fully Insured</h2>
+            <p>Comprehensive insurance coverage for all operations, ensuring safety and compliance.</p>
+        </div>
+    </section>
+</div>
+
+<div class="contact">
+    <h2>Contact Us</h2>
+    <p>Get in touch for reliable and certified pilot car services!</p>
+    <a href="mailto:your.email@example.com">Email Us</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Pilot Car Services. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
